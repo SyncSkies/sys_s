@@ -1,0 +1,12 @@
+# Ignore system files
+.bash_history
+.cache/
+.config/
+.local/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+logs/
+*.tlog
+
