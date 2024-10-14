@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch MAVROS nodes -->
+  <include file="$(find sys_s)/launch/multi_apm.launch"/>
+
+  <!-- Run the swarm control Python script -->
+  <node pkg="sys_g" type="swarm_takeoff_land.py" name="swarm_control" output="screen"/>
+</launch>
+

@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launch MAVROS nodes -->
+  <!-- Run the swarm control Python script -->
+  <node pkg="sys_g" type="swarm_takeoff_land.py" name="swarm_control" output="screen"/>
+</launch>
+
