@@ -38,7 +38,7 @@
           </surface>
         </collision>
         <visual name="runway">
-          <pose>000 0 0.005 0 0 0</pose>
+          <pose>0 0 0.005 0 0 0</pose>
           <cast_shadows>false</cast_shadows>
           <geometry>
             <plane>
@@ -78,123 +78,123 @@
       <uri>model://sun</uri>
     </include>
 
-    <!-- Drones -->
+    <!-- Drones in Centered Rectangle Grid -->
     <model name="drone1">
-      <pose> 10 0 0 0 0 0</pose>
+      <pose> -7.5 -10 0 0 0 0</pose>
       <include>
         <uri>model://drone1</uri>
       </include>
     </model>
     <model name="drone2">
-      <pose> 8.66 5 0 0 0 0.52</pose>
+      <pose> -2.5 -10 0 0 0 0</pose>
       <include>
         <uri>model://drone2</uri>
       </include>
     </model>
     <model name="drone3">
-      <pose> 5 8.66 0 0 0 1.05</pose>
+      <pose> 2.5 -10 0 0 0 0</pose>
       <include>
         <uri>model://drone3</uri>
       </include>
     </model>
     <model name="drone4"> 
-      <pose> 0 10 0 0 0 1.57</pose>
+      <pose> 7.5 -10 0 0 0 0</pose>
       <include>
         <uri>model://drone4</uri>
       </include>
     </model>
     <model name="drone5">
-      <pose> -5 8.66 0 0 0 2.09</pose>
+      <pose> -7.5 -5 0 0 0 0</pose>
       <include>
         <uri>model://drone5</uri>
       </include>
     </model>
     <model name="drone6">
-      <pose> -8.66 5 0 0 0 2.62</pose>
+      <pose> -2.5 -5 0 0 0 0</pose>
       <include>
         <uri>model://drone6</uri>
       </include>
     </model>
     <model name="drone7">
-      <pose> -10 0 0 0 0 3.14</pose>
+      <pose> 2.5 -5 0 0 0 0</pose>
       <include>
         <uri>model://drone7</uri>
       </include>
     </model>
     <model name="drone8">
-      <pose> -8.66 -5 0 0 0 3.67</pose>
+      <pose> 7.5 -5 0 0 0 0</pose>
       <include>
         <uri>model://drone8</uri>
       </include>
     </model>
     <model name="drone9">
-      <pose> -5 -8.66 0 0 0 4.19</pose>
+      <pose> -7.5 0 0 0 0 0</pose>
       <include>
         <uri>model://drone9</uri>
       </include>
     </model>
     <model name="drone10">
-      <pose> 0 -10 0 0 0 4.71</pose>
+      <pose> -2.5 0 0 0 0 0</pose>
       <include>
         <uri>model://drone10</uri>
       </include>
     </model>
     <model name="drone11">
-      <pose> 5 -8.66 0 0 0 5.24</pose>
+      <pose> 2.5 0 0 0 0 0</pose>
       <include>
         <uri>model://drone11</uri>
       </include>
     </model>
     <model name="drone12">
-      <pose> 8.66 -5 0 0 0 5.76</pose>
+      <pose> 7.5 0 0 0 0 0</pose>
       <include>
         <uri>model://drone12</uri>
       </include>
     </model>
     <model name="drone13">
-      <pose> 14.14 14.14 0 0 0 0.78</pose>
+      <pose> -7.5 5 0 0 0 0</pose>
       <include>
         <uri>model://drone13</uri>
       </include>
     </model>
     <model name="drone14">
-      <pose> 10 17.32 0 0 0 1.31</pose>
+      <pose> -2.5 5 0 0 0 0</pose>
       <include>
         <uri>model://drone14</uri>
       </include>
     </model>
     <model name="drone15">
-      <pose> 0 20 0 0 0 1.57</pose>
+      <pose> 2.5 5 0 0 0 0</pose>
       <include>
         <uri>model://drone15</uri>
       </include>
     </model>
     <model name="drone16">
-      <pose> -10 17.32 0 0 0 2.88</pose>
+      <pose> 7.5 5 0 0 0 0</pose>
       <include>
         <uri>model://drone16</uri>
       </include>
     </model>
     <model name="drone17">
-      <pose> -14.14 14.14 0 0 0 3.14</pose>
+      <pose> -7.5 10 0 0 0 0</pose>
       <include>
         <uri>model://drone17</uri>
       </include>
     </model>
     <model name="drone18">
-      <pose> -17.32 10 0 0 0 3.67</pose>
+      <pose> -2.5 10 0 0 0 0</pose>
       <include>
         <uri>model://drone18</uri>
       </include>
     </model>
     <model name="drone19">
-      <pose> -20 0 0 0 0 3.14</pose>
+      <pose> 2.5 10 0 0 0 0</pose>
       <include>
         <uri>model://drone19</uri>
       </include>
     </model>
     <model name="drone20">
-      <pose> -17.32 -10 0 0 0 4.71</pose>
+      <pose> 7.5 10 0 0 0 0</pose>
       <include>
         <uri>model://drone20</uri>
       </include>
