@@ -137,36 +137,6 @@
         <uri>model://drone10</uri>
       </include>
     </model>
-    <model name="drone11">
-      <pose> 5 -8.66 0 0 0 5.24</pose>
-      <include>
-        <uri>model://drone11</uri>
-      </include>
-    </model>
-    <model name="drone12">
-      <pose> 8.66 -5 0 0 0 5.76</pose>
-      <include>
-        <uri>model://drone12</uri>
-      </include>
-    </model>
-    <model name="drone13">
-      <pose> -7.5 5 0 0 0 0</pose>
-      <include>
-        <uri>model://drone13</uri>
-      </include>
-    </model>
-    <model name="drone14">
-      <pose> -2.5 5 0 0 0 0</pose>
-      <include>
-        <uri>model://drone14</uri>
-      </include>
-    </model>
-    <model name="drone15">
-      <pose> 2.5 5 0 0 0 0</pose>
-      <include>
-        <uri>model://drone15</uri>
-      </include>
-    </model>   
   </world>
 </sdf>
 
